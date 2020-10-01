@@ -9,4 +9,4 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('', include('rapi.urls')),
 
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #this is for include  all static file
